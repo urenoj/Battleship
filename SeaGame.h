@@ -1,13 +1,18 @@
-#ifndef Battleship_SeaGame_h
-#define Battleship_SeaGame_h
+#ifndef __Week14Labs__SeaGame__
+#define __Week14Labs__SeaGame__
 
-struct SeaGame {
-    seaGame() { std::cout << "Welcome to the Sea War game. \n"; }
+#include <iostream>
+#include "SeaGame.h"
+#include "Ocean.h"
 
-    void play() { ocean_.addShips(); }
-    
+class SeaGame {
+public:
+  SeaGame();
+  
+  void play();
+  
 private:
-    Ocean ocean_;
+  Ocean  ocean_;
 };
 
-#endif
+#endif /* defined(__Week14Labs__SeaGame__) */
