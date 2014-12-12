@@ -1,5 +1,5 @@
-#ifndef __Week14Labs__Ship__
-#define __Week14Labs__Ship__
+#ifndef __Battleship__Ship__
+#define __Battleship__Ship__
 
 #include <iostream>
 #include "Coord.h"
@@ -52,4 +52,4 @@ struct Ship {
     bool isHorizontal() const { return !isVertical();        }
 };
 
-#endif /* defined(__Week14Labs__Ship__) */
+#endif /* defined(__Battleship__Ship__) */
