@@ -29,7 +29,7 @@ public:
     friend bool operator!=(const Coord &lhs, const Coord &rhs) {
         return !(lhs == rhs);
     }
-    friend std::ostream &operator<<(std::ostream &os, const Coord &coord) {
+    friend std::ostream &operator << (std::ostream &os, const Coord &coord) {
         char row = coord.row_ - 1 + 'A';
         char col = coord.col_ + '0';
         return os << row << col << ' ' << coord.val_;
@@ -37,4 +37,3 @@ public:
 };
 
 #endif /* defined(__Week14Labs__Coord__) */
-
