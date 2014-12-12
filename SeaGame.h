@@ -7,12 +7,12 @@
 
 class SeaGame {
 public:
-  SeaGame();
+    SeaGame();
   
-  void play();
+    void play();
   
 private:
-  Ocean  ocean_;
+    Ocean  ocean_;
 };
 
 #endif /* defined(__Week14Labs__SeaGame__) */
