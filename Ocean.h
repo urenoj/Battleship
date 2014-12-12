@@ -1,5 +1,5 @@
-#ifndef __Week14Labs__Ocean__
-#define __Week14Labs__Ocean__
+#ifndef __Battleship__Ocean__
+#define __Battleship__Ocean__
 
 #include <iostream>
 #include <list>
@@ -26,4 +26,4 @@ struct Ocean {
     void hitShips();
 };
 
-#endif /* defined(__Week14Labs__Ocean__) */
+#endif /* defined(__Battleship__Ocean__) */
