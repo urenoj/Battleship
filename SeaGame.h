@@ -1,5 +1,5 @@
-#ifndef __Week14Labs__SeaGame__
-#define __Week14Labs__SeaGame__
+#ifndef __Battleship__SeaGame__
+#define __Battleship__SeaGame__
 
 #include <iostream>
 #include "SeaGame.h"
@@ -15,4 +15,4 @@ private:
     Ocean  ocean_;
 };
 
-#endif /* defined(__Week14Labs__SeaGame__) */
+#endif /* defined(__Battleship__SeaGame__) */
