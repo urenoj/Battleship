@@ -3,5 +3,5 @@
 void testSeaGame();
 
 int main() {
-  testSeaGame();
+    testSeaGame();
 }
