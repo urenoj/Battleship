@@ -1,5 +1,5 @@
-#ifndef __Week14Labs__Coord__
-#define __Week14Labs__Coord__
+#ifndef __Battleship__Coord__
+#define __Battleship__Coord__
 
 #include <iostream>
 
@@ -36,4 +36,4 @@ public:
     }
 };
 
-#endif /* defined(__Week14Labs__Coord__) */
+#endif /* defined(__Battleship__Coord__) */
